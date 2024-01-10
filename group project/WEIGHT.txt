@@ -1,0 +1,24 @@
+WEIGHT
+SQFT
+FINALDEST
+LEASE
+BEDROOMS
+STATUS
+REGION
+TITLED
+SECURED
+LOCATION
+PIERS
+
+Standardization
+Normalization
+
+Robust Techniques: Consider using models that are inherently robust to outliers, such as decision trees, random forests, or quantile regression.
+Winsorizing: Instead of outright removal, outliers can be capped at specific percentiles (e.g., 95th and 5th percentiles) to mitigate their influence without discarding them entirely.
+Incorporating Outliers: If outliers are informative, try incorporating them into the modeling process through techniques like weighted modeling or outlier-specific features.
+
+Random Forest
+Extreme Gradient Boosting (XGBoost)
+Light Gradient Boosting Machine (LightGBM)
+Hybrid Regression 65% Lasso and 35% XGBoost
+Stacked Generalization
