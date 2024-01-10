@@ -22,3 +22,16 @@ Extreme Gradient Boosting (XGBoost)
 Light Gradient Boosting Machine (LightGBM)
 Hybrid Regression 65% Lasso and 35% XGBoost
 Stacked Generalization
+Ridge
+lasso = it said that it great at features selection using alpha parameter
+gradient Boosting
+lasso + gradient boosting hybrid 
+0.7 lasso + 0.3 XGBoost
+0.65Ridge+0.35Xgb 
+ 0.70Lasso+0.30Xgb 
+ 0.65Lasso+0.35Xgb 
+ 0.60Lasso+0.40Xgb 
+ 0.3Ridge+0.35Lasso+0.35Xgb 
+ 0.25Ridge+0.40Lasso+0.35Xgb 
+ 0.65Ridge+0.35Xgb 
+ 0.65Lasso+0.35Xgb

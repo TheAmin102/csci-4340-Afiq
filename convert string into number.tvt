@@ -1,0 +1,44 @@
+# Replace 'I' with 1 and 'R' with 2 in the 'jstatus' column
+df["jstatus"].replace("I", 1, inplace=True)
+df["jstatus"].replace("R", 2, inplace=True)
+
+df["jprice"].replace("I", 1, inplace=True)
+df["jprice"].replace("R", 2, inplace=True)
+df["jprice"].replace("9", 3, inplace=True)
+
+df["jsqft"].replace("I", 1, inplace=True)
+df["jsqft"].replace("R", 2, inplace=True)
+df["jsqft"].replace("9", 3, inplace=True)
+
+df["jbedroom"].replace("I", 1, inplace=True)
+df["jbedroom"].replace("R", 2, inplace=True)
+df["jbedroom"].replace("9", 3, inplace=True)
+
+df["jlease"].replace("I", 1, inplace=True)
+df["jlease"].replace("R", 2, inplace=True)
+df["jlease"].replace("9", 3, inplace=True)
+
+df["jfinaldest"].replace("I", 1, inplace=True)
+df["jfinaldest"].replace("R", 2, inplace=True)
+df["jfinaldest"].replace("9", 3, inplace=True)
+
+df["jtitle"].replace("I", 1, inplace=True)
+df["jtitle"].replace("R", 2, inplace=True)
+df["jtitle"].replace("9", 3, inplace=True)
+
+df["jsecured"].replace("I", 1, inplace=True)
+df["jsecured"].replace("R", 2, inplace=True)
+df["jsecured"].replace("9", 3, inplace=True)
+
+df["jlocation"].replace("I", 1, inplace=True)
+df["jlocation"].replace("R", 2, inplace=True)
+df["jlocation"].replace("9", 3, inplace=True)
+
+df["jfootings"].replace("I", 1, inplace=True)
+df["jfootings"].replace("R", 2, inplace=True)
+df["jfootings"].replace("9", 3, inplace=True)
+
+
+df["jpiers"].replace("I", 1, inplace=True)
+df["jpiers"].replace("R", 2, inplace=True)
+df["jpiers"].replace("9", 3, inplace=True)
