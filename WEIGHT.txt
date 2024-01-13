@@ -1,14 +1,13 @@
-WEIGHT
-SQFT
-FINALDEST
-LEASE
-BEDROOMS
-STATUS
-REGION
-TITLED
-SECURED
-LOCATION
-PIERS
+notes:
+data analysis x masukan 
+visualization training data
+RMSLE train set test set
+comparison predicted result and original test set 
+applied log transformation for any skewed data 
+abnormal point 
+refocus algorithm
+list of no features/ score/ alpha RMSE / 
+comparison hybrid method and original algorithm and original test set
 
 Standardization
 Normalization
@@ -35,3 +34,23 @@ lasso + gradient boosting hybrid
  0.25Ridge+0.40Lasso+0.35Xgb 
  0.65Ridge+0.35Xgb 
  0.65Lasso+0.35Xgb
+
+
+available column in this csv 
+Index(['WEIGHT', 'STATUS', 'FINALDEST', 'FOOTINGS', 'LEASE', 'LOCATION',
+       'REGION', 'PIERS', 'SECURED', 'TITLED', 'SECTIONS', 'PRICE', 'SQFT',
+       'BEDROOMS', 'SHIPMONTH', 'WGTADJ', 'CONTROL', 'jstatus', 'jprice',
+       'jsqft', 'jbedroom', 'jlease', 'jfinaldest', 'jtitle', 'jsecured',
+       'jlocation', 'jfootings', 'jpiers'],
+      dtype='object')
+      
+RMSE (Root Mean Squared Error)
+MAE (Mean Absolute Error)
+MAPE (Mean Absolute Percentage Error)
+RMSLE problem because negative value 
+
+try to visuliza and bind with SQFT and BEDROOMS
+Scatter Plot with Regression Line
+Residual Plot
+prediction vs training data
+price vs prediction
